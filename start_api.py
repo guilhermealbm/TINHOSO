@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+import random
 
 app = Flask(__name__)
 
@@ -19,7 +20,7 @@ devil_names = ['Anhangão', 'Aquele', 'Arrenegado', 'Austero', 'Azarape',
 
 @app.route('/')
 def hello():
-    return jsonify(devil_names[0])
+    return jsonify(devil_names[random.randrange(len(devil_names))])
 
 if __name__ == '__main__':
     app.run()
