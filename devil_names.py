@@ -1,7 +1,6 @@
 import random
 
-def get_devil_name():
-    devil_names = ['Anhangão', 'Aquele', 'Arrenegado', 'Austero', 'Azarape',
+devil_names = ['Anhangão', 'Aquele', 'Arrenegado', 'Austero', 'Azarape',
     'Barzabu', 'Beuzebu', 'Bode-Preto' 'Canho', 'Cão', 'Cão-Extremo', 
     'Cão-miúdo', 'Cão-Tinhoso', 'Capeta', 'Capiroto', 'Caracães', 'Careca', 
     'Carmulhão', 'Carocho', 'Carujo', 'Coisa-Má', 'Coisa-Ruim', 'Coxo', 'Crespo', 'Cujo', 
@@ -16,7 +15,14 @@ def get_devil_name():
     'Sôuto-Eu', 'Severo-Mor', 'Sujo', 'Tal', 'Temba', 'Tendeiro', 'Tentador', 'Tibes',
     'Tinhoso', 'Tisnado', 'Tralha', 'Tranjão', 'Tristoho', 'Tunes', 'Xu']
 
+def get_random_devil_name():
     return(devil_names[random.randrange(len(devil_names))])
 
+def get_devil_name(index):
+    if (index < 0 or index >= len(devil_names)):
+        return('Demônio out of bounds')
+    else:
+        return(devil_names[index])
+
 if __name__ == '__main__':
-    print(get_devil_name())
+    print(get_devil_name(13))
