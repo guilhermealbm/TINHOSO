@@ -25,4 +25,4 @@ def get_devil_name(index):
         return(devil_names[index])
 
 if __name__ == '__main__':
-    print(get_devil_name(13))
+    print(get_random_devil_name())
