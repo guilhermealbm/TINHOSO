@@ -1,6 +1,6 @@
 import random
 
-def main():
+def get_devil_name():
     devil_names = ['Anhangão', 'Aquele', 'Arrenegado', 'Austero', 'Azarape',
     'Barzabu', 'Beuzebu', 'Bode-Preto' 'Canho', 'Cão', 'Cão-Extremo', 
     'Cão-miúdo', 'Cão-Tinhoso', 'Capeta', 'Capiroto', 'Caracães', 'Careca', 
@@ -16,7 +16,7 @@ def main():
     'Sôuto-Eu', 'Severo-Mor', 'Sujo', 'Tal', 'Temba', 'Tendeiro', 'Tentador', 'Tibes',
     'Tinhoso', 'Tisnado', 'Tralha', 'Tranjão', 'Tristoho', 'Tunes', 'Xu']
 
-    print(devil_names[random.randrange(len(devil_names))])
+    return(devil_names[random.randrange(len(devil_names))])
 
 if __name__ == '__main__':
-    main()
+    print(get_devil_name())
