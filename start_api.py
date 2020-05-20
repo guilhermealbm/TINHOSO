@@ -20,5 +20,9 @@ def get_devil_name(index):
 def get_all_devil_names():
     return jsonify({'devil_names':devil_names.get_all_devil_names()})
 
+@app.route('/new', methods = ['POST'])
+def new_devil_name():
+    return jsonify("Sorry you cannot add more demons, since you're not Guimarães Rosa. But POST method works just fine!")
+
 if __name__ == '__main__':
     app.run()
