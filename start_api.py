@@ -16,5 +16,9 @@ def get_devil_name(index):
     except ValueError:
         return jsonify(index+' is not a possible index for devil names.')
 
+@app.route('/all')
+def get_all_devil_names():
+    return jsonify(devil_names.get_all_devil_names())
+
 if __name__ == '__main__':
     app.run()
