@@ -10,24 +10,34 @@ Como script isolado ou integrado numa API REST escrita em Flask, GuimaraesRosaAP
 ### Standalone script
 1. Make sure you've python installed
 2. Clone this repo
+
     `git clone https://github.com/guilhermealbm/GuimaraesRosaAPI`
 3. Change into the directory of the project:
+
     `cd GuimaraesRosaAPI`
 4. Run!
+
     `python devil_names.py`
 
 ### Flask REST API
 1. Make sure you've python and Flask installed (Flask can be downloaded with pip)
 2. Clone this repo
+
     `git clone https://github.com/guilhermealbm/GuimaraesRosaAPI`
 3. Change into the directory of the project:
+
     `cd GuimaraesRosaAPI`
 4. Run!
+
     `python start_api.py`
 5. You can use the following routes:
+
     `/` - returns a random devil_name (GET)
+
     `/devil/<index>`- returns devil name by index (GET)
+
     `/all`- returns all devil names (GET)
+    
     `/new` - add a new devil name (POST)
 
 ### Thanks
