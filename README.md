@@ -1,9 +1,11 @@
-# GuimaraesRosaAPI
+# TINHOSO
 
-Standalone script (or Flask REST API that consumes this script) and returns one of many devil names used by Brazilian author Guimarães Rosa on his Magnum opus Grande Sertão: Veredas
+TINHOSO – TINHOSO Is Not uma Horrenda Orientação Sobre O-que-não-ri
 
 Sabe quando você está escrevendo um texto e precisa de um sinônimo? Imagine, agora, que queira um sinônimo para o demônio; em especial, deseja um dos vários sinônimos utilizados por Guimarães Rosa no maravilhoso Grande Sertão: Veredas. É pra isso que esse código foi escrito!
-Como script isolado ou integrado numa API REST escrita em Flask, GuimaraesRosaAPI conta com 94 sinônimos prontos para seu próximo pacto fáustico!
+Como script isolado ou integrado numa API REST escrita em Flask, TINHOSO conta com 94 sinônimos prontos para seu próximo pacto fáustico!
+
+Standalone script (or Flask REST API that consumes this script) and returns one of many devil names used by Brazilian author Guimarães Rosa on his Magnum opus Grande Sertão: Veredas
 
 ## Instalation
 
@@ -11,10 +13,10 @@ Como script isolado ou integrado numa API REST escrita em Flask, GuimaraesRosaAP
 1. Make sure you've python installed
 2. Clone this repo
 
-    `git clone https://github.com/guilhermealbm/GuimaraesRosaAPI`
+    `git clone https://github.com/guilhermealbm/TINHOSO`
 3. Change into the directory of the project:
 
-    `cd GuimaraesRosaAPI`
+    `cd TINHOSO`
 4. Run!
 
     `python devil_names.py`
@@ -23,10 +25,10 @@ Como script isolado ou integrado numa API REST escrita em Flask, GuimaraesRosaAP
 1. Make sure you've python and Flask installed (Flask can be downloaded with pip)
 2. Clone this repo
 
-    `git clone https://github.com/guilhermealbm/GuimaraesRosaAPI`
+    `git clone https://github.com/guilhermealbm/TINHOSO`
 3. Change into the directory of the project:
 
-    `cd GuimaraesRosaAPI`
+    `cd TINHOSO`
 4. Run!
 
     `python start_api.py`
