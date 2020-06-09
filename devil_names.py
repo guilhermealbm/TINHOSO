@@ -16,8 +16,8 @@ devil_names = ['Anhangão', 'Aquele', 'Arrenegado', 'Austero', 'Azarape',
     'Tinhoso', 'Tisnado', 'Tralha', 'Tranjão', 'Tristoho', 'Tunes', 'Xu']
 
 def get_random_devil_name():
-    return(devil_names[random.randrange(len(devil_names))])
-
+    return random.choice(devil_names)
+    
 def get_devil_name(index):
     if (index < 0 or index >= len(devil_names)):
         return('Demônio out of bounds')
